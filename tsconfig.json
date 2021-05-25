@@ -29,8 +29,11 @@
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
+    "fullTemplateTypeCheck": true, 
+    "preserveWhitespaces": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,
+    "trace": true
   }
 }
