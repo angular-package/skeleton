@@ -21,6 +21,10 @@
       "dom"
     ],
     "paths": {
+      "component-loader": [
+        "dist/component-loader/component-loader",
+        "dist/component-loader"
+      ],
       "type": [
         "dist/type/type",
         "dist/type"
