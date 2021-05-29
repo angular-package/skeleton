@@ -25,6 +25,10 @@
         "dist/component-loader/component-loader",
         "dist/component-loader"
       ],
+      "property": [
+        "dist/property/property",
+        "dist/property"
+      ],
       "type": [
         "dist/type/type",
         "dist/type"
