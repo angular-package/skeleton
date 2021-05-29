@@ -126,3 +126,11 @@ build
 dist
 graphics
 fonts
+
+# Packages
+packages
+# packages/change-detection
+# packages/component-loader
+# packages/core
+# packages/property
+# packages/type
