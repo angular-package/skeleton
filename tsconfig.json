@@ -25,9 +25,17 @@
         "dist/component-loader/component-loader",
         "dist/component-loader"
       ],
+      "core": [
+        "dist/core/core",
+        "dist/core"
+      ],
       "property": [
         "dist/property/property",
         "dist/property"
+      ],
+      "testing": [
+        "dist/testing/testing",
+        "dist/testing",
       ],
       "type": [
         "dist/type/type",
