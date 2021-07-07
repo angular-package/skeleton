@@ -1,14 +1,19 @@
 # Packages
 
-Useful packages based on the [angular.io](https://angular.io/).
+Useful and simple to use packages based on the [angular.io][angulario].
 
-| Package          | Description                                  | Status                                         | Readme                                                 |
-| :--------------- | :------------------------------------------- | :--------------------------------------------: | :----------------------------------------------------- |
-| change-detection | Improve application performance.             | *In Progress*                                  | [Readme][cd-readme-github]                             |
-| prism            | `Prism` highlighter module.                  | *In Progress*                                  | [Readme][prism-readme-github]                          |
-| property         | Features to handle object properties.        | *In Progress*                                  | [Readme][property-readme-github]                       |
-| ui               | User interface.                              | *In Progress*                                  | [Github][ui-readme-github]                             |
-| type             | Common types, type guards and type checkers. | [![npm version][type-npm-svg]][type-npm-badge] | [Github][type-readme-github] \| [npm][type-readme-npm] |
+| Package                              | Description                                        | Status                                                       |
+| :----------------------------------- | :------------------------------------------------- | -----------------------------------------------------------: |
+| [change-detection][cd-github-readme] | Improve application performance.                   | [![npm version][cd-npm-badge-svg]][cd-npm-badge]             |
+| [core][core-github-readme]           | Core features.                                     | [![npm version][core-npm-badge-svg]][core-npm-badge]         |
+| [prism][prism-github-readme]         | `Prism` highlighter module.                        | [![npm version][prism-npm-badge-svg]][prism-npm-badge]       |
+| [property][property-github-readme]   | Features to handle object properties.              | [![npm version][property-npm-badge-svg]][property-npm-badge] |
+| [reactive][reactive-github-readme]   | Automatize process of creating some rxjs features. | [![npm version][reactive-npm-badge-svg]][reactive-npm-badge] |
+| [ui][ui-github-readme]               | User interface.                                    | *In Progress*                                                |
+| [type][type-github-readme]           | Common types, type guards and type checkers.       | [![npm version][type-npm-badge-svg]][type-npm-badge]         |
+| [testing][testing-github-readme]     | Supports testing other packages.                   | [![npm version][testing-npm-badge-svg]][testing-npm-badge]   |
+
+> Click on the package name to visit the package GitHub README.md
 
 ## Skeleton
 
@@ -37,31 +42,86 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<!-- Funding -->
+[github-badge-sponsor]: https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&link=https://github.com/sponsors/angular-package
+[github-sponsor-link]: https://github.com/sponsors/angular-package
+[patreon-badge]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dsciborrudnicki%26type%3Dpatrons&style=flat
+[patreon-link]: https://patreon.com/sciborrudnicki
+
+[angulario]: https://angular.io
+[skeleton]: https://github.com/angular-package/skeleton
+
+<!-- Package: core -->
+  <!-- npm -->
+  [core-npm-badge-svg]: https://badge.fury.io/js/%40angular-package%2Fcore.svg
+  [core-npm-badge]: https://badge.fury.io/js/%40angular-package%2Fcore
+  [core-npm-readme]: https://www.npmjs.com/package/@angular-package/core#readme
+
+  <!-- GitHub -->
+  [core-github-readme]: https://github.com/angular-package/core#readme
+
+<!-- Package: change-detection -->
+  <!-- npm -->
+  [cd-npm-badge-svg]: https://badge.fury.io/js/%40angular-package%2Fchange-detection.svg
+  [cd-npm-badge]: https://badge.fury.io/js/%40angular-package%2Fchange-detection
+  [cd-npm-readme]: https://www.npmjs.com/package/@angular-package/change-detection#readme
+
+  <!-- GitHub -->
+  [cd-github-readme]: https://github.com/angular-package/change-detection#readme
+
+<!-- Package: prism -->
+  <!-- npm -->
+  [prism-npm-badge-svg]: https://badge.fury.io/js/%40angular-package%2Fprism.svg
+  [prism-npm-badge]: https://badge.fury.io/js/%40angular-package%2Fprism
+  [prism-npm-readme]: https://www.npmjs.com/package/@angular-package/prism#readme
+
+  <!-- GitHub -->
+  [prism-github-readme]: https://github.com/angular-package/prism#readme
 
 <!-- Package: property -->
-[property-npm-svg]: https://badge.fury.io/js/%40angular-package%property.svg
-[property-npm-badge]: https://badge.fury.io/js/%40angular-package%property
-[property-readme-github]: https://github.com/angular-package/property#readme
-[property-readme-npm]: https://www.npmjs.com/package/@angular-package/property#readme
+  <!-- npm -->
+  [property-npm-badge-svg]: https://badge.fury.io/js/%40angular-package%2Fproperty.svg
+  [property-npm-badge]: https://badge.fury.io/js/%40angular-package%2Fproperty
+  [property-npm-readme]: https://www.npmjs.com/package/@angular-package/property#readme
+
+  <!-- GitHub -->
+  [property-github-readme]: https://github.com/angular-package/property#readme
+
+<!-- Package: reactive -->
+  <!-- npm -->
+  [reactive-npm-badge-svg]: https://badge.fury.io/js/%40angular-package%2Freactive.svg
+  [reactive-npm-badge]: https://badge.fury.io/js/%40angular-package%2Freactive
+  [reactive-npm-readme]: https://www.npmjs.com/package/@angular-package/reactive#readme
+
+  <!-- GitHub -->
+  [reactive-github-readme]: https://github.com/angular-package/reactive#readme
+
+<!-- Package: testing -->
+  <!-- npm -->
+  [testing-npm-badge-svg]: https://badge.fury.io/js/%40angular-package%2Ftesting.svg
+  [testing-npm-badge]: https://badge.fury.io/js/%40angular-package%2Ftesting
+  [testing-npm-readme]: https://www.npmjs.com/package/@angular-package/testing#readme
+
+  <!-- GitHub -->
+  [testing-github-readme]: https://github.com/angular-package/testing#readme
 
 <!-- Package: type -->
-[type-npm-svg]: https://badge.fury.io/js/%40angular-package%2Ftype.svg
-[type-npm-badge]: https://badge.fury.io/js/%40angular-package%2Ftype
-[type-readme-github]: https://github.com/angular-package/type#readme
-[type-readme-npm]: https://www.npmjs.com/package/@angular-package/type#readme
+  <!-- npm -->
+  [type-npm-badge-svg]: https://badge.fury.io/js/%40angular-package%2Ftype.svg
+  [type-npm-badge]: https://badge.fury.io/js/%40angular-package%2Ftype
+  [type-npm-readme]: https://www.npmjs.com/package/@angular-package/type#readme
 
-<!-- Other packages -->
-[cd-readme-github]: https://github.com/angular-package/change-detection#readme
-[prism-readme-github]: https://github.com/angular-package/prism#readme
-[ui-readme-github]: https://github.com/angular-package/ui#readme
+  <!-- GitHub -->
+  [type-github-readme]: https://github.com/angular-package/type#readme
 
-<!-- GIT -->
-[angular-commit]: https://gist.github.com/stephenparish/9941e89d80e2bc58a153
-[karma-commit]: http://karma-runner.github.io/0.10/dev/git-commit-msg.html
-[conventional-commit]: https://www.conventionalcommits.org/en/v1.0.0/
-[semver]: http://semver.org/
+  [package-type-resultcallback]: https://github.com/angular-package/type#resultcallback
+  [package-type-key]: https://github.com/angular-package/type#key
 
-<!-- GIT: commit -->
-[git-commit-angular]: https://gist.github.com/stephenparish/9941e89d80e2bc58a153
-[git-commit-karma]: http://karma-runner.github.io/0.10/dev/git-commit-msg.html
-[git-commit-conventional]: https://www.conventionalcommits.org/en/v1.0.0/
+<!-- Package: ui -->
+  <!-- npm -->
+  [ui-npm-badge-svg]: https://badge.fury.io/js/%40angular-package%2Fui.svg
+  [ui-npm-badge]: https://badge.fury.io/js/%40angular-package%2Fui
+  [ui-npm-readme]: https://www.npmjs.com/package/@angular-package/ui#readme
+
+  <!-- GitHub -->
+  [ui-github-readme]: https://github.com/angular-package/ui#readme
