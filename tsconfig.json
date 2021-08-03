@@ -21,6 +21,10 @@
       "dom"
     ],
     "paths": {
+      "callback": [
+        "dist/callback/callback",
+        "dist/callback"
+      ],
       "component-loader": [
         "dist/component-loader/component-loader",
         "dist/component-loader"
