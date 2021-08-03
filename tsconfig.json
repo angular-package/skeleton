@@ -33,6 +33,10 @@
         "dist/core/core",
         "dist/core"
       ],
+      "error": [
+        "dist/error/error",
+        "dist/error"
+      ],
       "property": [
         "dist/property/property",
         "dist/property"
