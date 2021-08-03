@@ -12,9 +12,9 @@ Useful and simple to use packages based on the [angular.io][angulario].
 | [prism][prism-github-readme]         | `Prism` highlighter module.                                         | [![npm version][prism-npm-badge-svg]][prism-npm-badge] |
 | [property][property-github-readme]   | Features to handle object properties.                               | [![npm version][property-npm-badge-svg]][property-npm-badge] |
 | [reactive][reactive-github-readme]   | Automatize process of creating some rxjs features.                  | [![npm version][reactive-npm-badge-svg]][reactive-npm-badge] |
-| [ui][ui-github-readme]               | User interface.                                                     | *In Progress* |
 | [testing][testing-github-readme]     | Support for testing other packages.                                 | [![npm version][testing-npm-badge-svg]][testing-npm-badge] |
 | [type][type-github-readme]           | Common types, type guards and type checkers.                        | [![npm version][type-npm-badge-svg]][type-npm-badge] |
+| [ui][ui-github-readme]               | User interface.                                                     | *In Progress* |
 
 > Click on the package name to visit the package.
 
