@@ -40,6 +40,10 @@
         "dist/error/error",
         "dist/error"
       ],
+      "name": [
+        "dist/name/name",
+        "dist/name"
+      ],
       "property": [
         "dist/property/property",
         "dist/property"
