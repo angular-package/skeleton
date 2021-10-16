@@ -44,6 +44,14 @@
         "dist/property/property",
         "dist/property"
       ],
+      "range": [
+        "dist/range/range",
+        "dist/range"
+      ],
+      "storage": [
+        "dist/storage/storage",
+        "dist/storage"
+      ],
       "testing": [
         "dist/testing/testing",
         "dist/testing"

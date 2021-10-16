@@ -322,6 +322,68 @@
           }
         }
       }
+    },
+    "storage": {
+      "projectType": "library",
+      "root": "packages/storage",
+      "sourceRoot": "packages/storage/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "packages/storage/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "packages/storage/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "packages/storage/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "packages/storage/src/test.ts",
+            "tsConfig": "packages/storage/tsconfig.spec.json",
+            "karmaConfig": "packages/storage/karma.conf.js"
+          }
+        }
+      }
+    },
+    "range": {
+      "projectType": "library",
+      "root": "packages/range",
+      "sourceRoot": "packages/range/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "packages/range/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "packages/range/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "packages/range/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "packages/range/src/test.ts",
+            "tsConfig": "packages/range/tsconfig.spec.json",
+            "karmaConfig": "packages/range/karma.conf.js"
+          }
+        }
+      }
     }
   },
   "defaultProject": "type"
