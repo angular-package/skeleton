@@ -65,6 +65,10 @@
         "dist/testing/testing",
         "dist/testing"
       ],
+      "text": [
+        "dist/text/text",
+        "dist/text"
+      ],
       "type": [
         "dist/type/type",
         "dist/type"
