@@ -61,6 +61,10 @@
         "dist/storage/storage",
         "dist/storage"
       ],
+      "tag": [
+        "dist/tag/tag",
+        "dist/tag"
+      ],
       "testing": [
         "dist/testing/testing",
         "dist/testing"
