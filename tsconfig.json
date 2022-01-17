@@ -72,6 +72,10 @@
       "type": [
         "dist/type/type",
         "dist/type"
+      ],
+      "wrapper": [
+        "dist/wrapper/wrapper",
+        "dist/wrapper"
       ]
     }
   },
