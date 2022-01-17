@@ -242,6 +242,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   <!-- GitHub -->
   [storage-github-readme]: https://github.com/angular-package/storage#readme
 
+<!-- Package: tag -->
+  <!-- npm -->
+  [tag-npm-badge-svg]: https://badge.fury.io/js/%40angular-package%2Ftag.svg
+  [tag-npm-badge-png]: https://badge.fury.io/js/%40angular-package%2Ftag.png
+  [tag-npm-badge]: https://badge.fury.io/js/%40angular-package%2Ftag
+  [tag-npm-readme]: https://www.npmjs.com/package/@angular-package/tag#readme
+
+  <!-- GitHub -->
+  [tag-github-readme]: https://github.com/angular-package/tag#readme
+
 <!-- Package: testing -->
   <!-- npm -->
   [testing-npm-badge-svg]: https://badge.fury.io/js/%40angular-package%2Ftesting.svg
@@ -281,6 +291,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
   <!-- GitHub -->
   [ui-github-readme]: https://github.com/angular-package/ui#readme
+
+<!-- Package: wrapper -->
+  <!-- npm -->
+  [wrapper-npm-badge-svg]: https://badge.fury.io/js/%40angular-package%2Fwrapper.svg
+  [wrapper-npm-badge-svg]: https://badge.fury.io/js/%40angular-package%2Fwrapper.svg
+  [wrapper-npm-badge]: https://badge.fury.io/js/%40angular-package%2Fwrapper
+  [wrapper-npm-readme]: https://www.npmjs.com/package/@angular-package/wrapper#readme
+
+  <!-- GitHub -->
+  [wrapper-github-readme]: https://github.com/angular-package/wrapper#readme
 
 <!-- Angular -->
 [angular-component-factory-resolver]: https://angular.io/api/core/ComponentFactoryResolver
