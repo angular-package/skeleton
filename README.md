@@ -24,20 +24,16 @@ The angular-package supports the development process of [angular][angulario]-bas
 | [range][range-github-readme]                 | The range between a minimum and maximum.                          | [![npm version][range-npm-badge-png]][range-npm-badge] |
 | [reactive][reactive-github-readme]           | Automatize the process of creating some rxjs features.            | [![npm version][reactive-npm-badge-png]][reactive-npm-badge] |
 | [storage][storage-github-readme]             | The storage of data under allowed names.                          | [![npm version][storage-npm-badge-png]][storage-npm-badge] |
-| [tag][tag-github-readme]                     | Any tag with optional attributes.                                 | *In Progress* |
+| [tag][tag-github-readme]                     | Any tag with optional attributes.                                 | [![npm version][tag-npm-badge-png]][tag-npm-badge] |
 | [testing][testing-github-readme]             | Support for testing other packages.                               | [![npm version][testing-npm-badge-png]][testing-npm-badge] |
-| [text][text-github-readme]                   | **Text on the template with replaceable tags.**                   | [![npm version][text-npm-badge-png]][text-npm-badge] |
+| [text][text-github-readme]                   | Text on the template with replaceable tags.                       | [![npm version][text-npm-badge-png]][text-npm-badge] |
 | [type][type-github-readme]                   | Common types, type guards, and type checkers.                     | [![npm version][type-npm-badge-png]][type-npm-badge] |
-| [ui][ui-github-readme]                       | User interface.                                                   | *In Progress* |
-| [wrapper][wrapper-github-readme]             | Wrap the text with the opening and closing chars.                 | *In Progress* |
+| [ui][ui-github-readme]                       | Configurable user interface.                                      | [![npm version][ui-npm-badge-png]][ui-npm-badge] |
+| [wrapper][wrapper-github-readme]             | Wrap the text with the opening and closing chars.                 | [![npm version][wrapper-npm-badge-png]][wrapper-npm-badge] |
 
 Click on the package name to visit its [GitHub](https://github.com/) page.
 
 <br>
-
-## Skeleton
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.
 
 ## Development server
 
@@ -97,27 +93,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [git-commit-angular]: https://gist.github.com/stephenparish/9941e89d80e2bc58a153
 [git-commit-karma]: http://karma-runner.github.io/0.10/dev/git-commit-msg.html
 [git-commit-conventional]: https://www.conventionalcommits.org/en/v1.0.0/
-
-<!-- This package: text  -->
-  <!-- GitHub: badges -->
-  [text-badge-issues]: https://img.shields.io/github/issues/angular-package/text
-  [text-badge-forks]: https://img.shields.io/github/forks/angular-package/text
-  [text-badge-stars]: https://img.shields.io/github/stars/angular-package/text
-  [text-badge-license]: https://img.shields.io/github/license/angular-package/text
-  <!-- GitHub: badges links -->
-  [text-issues]: https://github.com/angular-package/text/issues
-  [text-forks]: https://github.com/angular-package/text/network
-  [text-license]: https://github.com/angular-package/text/blob/master/LICENSE
-  [text-stars]: https://github.com/angular-package/text/stargazers
-<!-- This package -->
-  [text-github-changelog]: https://github.com/angular-package/text/blob/main/CHANGELOG.md
-
-  [package-type-key]: https://github.com/angular-package/type#key
-  [package-type-minmax]: https://github.com/angular-package/type#minmax
-  [package-type-resultcallback]: https://github.com/angular-package/type#resultcallback
-  [package-type-type]: https://github.com/angular-package/type#type
-  [package-type-types]: https://github.com/angular-package/type#types
-  [package-type-valueparser]: https://github.com/angular-package/type#valueparser
 
 <!-- Package: callback -->
   <!-- npm -->
@@ -285,7 +260,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <!-- Package: ui -->
   <!-- npm -->
   [ui-npm-badge-svg]: https://badge.fury.io/js/%40angular-package%2Fui.svg
-  [ui-npm-badge-svg]: https://badge.fury.io/js/%40angular-package%2Fui.svg
+  [ui-npm-badge-png]: https://badge.fury.io/js/%40angular-package%2Fui.png
   [ui-npm-badge]: https://badge.fury.io/js/%40angular-package%2Fui
   [ui-npm-readme]: https://www.npmjs.com/package/@angular-package/ui#readme
 
@@ -295,7 +270,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <!-- Package: wrapper -->
   <!-- npm -->
   [wrapper-npm-badge-svg]: https://badge.fury.io/js/%40angular-package%2Fwrapper.svg
-  [wrapper-npm-badge-svg]: https://badge.fury.io/js/%40angular-package%2Fwrapper.svg
+  [wrapper-npm-badge-png]: https://badge.fury.io/js/%40angular-package%2Fwrapper.png
   [wrapper-npm-badge]: https://badge.fury.io/js/%40angular-package%2Fwrapper
   [wrapper-npm-readme]: https://www.npmjs.com/package/@angular-package/wrapper#readme
 
