@@ -4,6 +4,7 @@
     "codelyzer"
   ],
   "rules": {
+    "no-construct": false,
     "one-variable-per-declaration": false,
     "no-unused-expression": false,
     "align": {
