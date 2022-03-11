@@ -29,6 +29,10 @@
         "dist/callback/callback",
         "dist/callback"
       ],
+      "change-detection": [
+        "dist/change-detection/change-detection",
+        "dist/change-detection"
+      ],
       "component-loader": [
         "dist/component-loader/component-loader",
         "dist/component-loader"
@@ -56,6 +60,10 @@
       "range": [
         "dist/range/range",
         "dist/range"
+      ],
+      "spectre": [
+        "dist/spectre/spectre",
+        "dist/spectre"
       ],
       "storage": [
         "dist/storage/storage",
@@ -89,7 +97,7 @@
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
-    "fullTemplateTypeCheck": true, 
+    "fullTemplateTypeCheck": true,
     "preserveWhitespaces": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
