@@ -49,6 +49,10 @@
         "dist/name/name",
         "dist/name"
       ],
+      "nav": [
+        "dist/nav/nav",
+        "dist/nav"
+      ],
       "preferences": [
         "dist/preferences/preferences",
         "dist/preferences"
