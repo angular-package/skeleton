@@ -663,6 +663,37 @@
           }
         }
       }
+    },
+    "calculation": {
+      "projectType": "library",
+      "root": "packages/calculation",
+      "sourceRoot": "packages/calculation/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "packages/calculation/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "packages/calculation/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "packages/calculation/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "packages/calculation/src/test.ts",
+            "tsConfig": "packages/calculation/tsconfig.spec.json",
+            "karmaConfig": "packages/calculation/karma.conf.js"
+          }
+        }
+      }
     }
   },
   "defaultProject": "type"

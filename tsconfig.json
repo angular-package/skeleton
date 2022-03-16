@@ -25,6 +25,10 @@
       "@angular/*": [
         "./node_modules/@angular/*"
       ],
+      "calculation": [
+        "dist/calculation/calculation",
+        "dist/calculation"
+      ],
       "callback": [
         "dist/callback/callback",
         "dist/callback"
