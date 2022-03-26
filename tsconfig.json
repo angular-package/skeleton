@@ -45,9 +45,17 @@
         "dist/core/core",
         "dist/core"
       ],
+      "currency": [
+        "dist/currency/currency",
+        "dist/currency"
+      ],
       "error": [
         "dist/error/error",
         "dist/error"
+      ],
+      "font-awesome": [
+        "dist/font-awesome/font-awesome",
+        "dist/font-awesome"
       ],
       "name": [
         "dist/name/name",
@@ -56,6 +64,10 @@
       "nav": [
         "dist/nav/nav",
         "dist/nav"
+      ],
+      "payment": [
+        "dist/payment/payment",
+        "dist/payment"
       ],
       "preferences": [
         "dist/preferences/preferences",

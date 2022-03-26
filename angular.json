@@ -694,6 +694,99 @@
           }
         }
       }
+    },
+    "currency": {
+      "projectType": "library",
+      "root": "packages/currency",
+      "sourceRoot": "packages/currency/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "packages/currency/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "packages/currency/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "packages/currency/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "packages/currency/src/test.ts",
+            "tsConfig": "packages/currency/tsconfig.spec.json",
+            "karmaConfig": "packages/currency/karma.conf.js"
+          }
+        }
+      }
+    },
+    "payment": {
+      "projectType": "library",
+      "root": "packages/payment",
+      "sourceRoot": "packages/payment/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "packages/payment/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "packages/payment/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "packages/payment/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "packages/payment/src/test.ts",
+            "tsConfig": "packages/payment/tsconfig.spec.json",
+            "karmaConfig": "packages/payment/karma.conf.js"
+          }
+        }
+      }
+    },
+    "font-awesome": {
+      "projectType": "library",
+      "root": "packages/font-awesome",
+      "sourceRoot": "packages/font-awesome/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "packages/font-awesome/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "packages/font-awesome/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "packages/font-awesome/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "packages/font-awesome/src/test.ts",
+            "tsConfig": "packages/font-awesome/tsconfig.spec.json",
+            "karmaConfig": "packages/font-awesome/karma.conf.js"
+          }
+        }
+      }
     }
   },
   "defaultProject": "type"
