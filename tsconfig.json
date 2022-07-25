@@ -1,27 +1,34 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
-{
+/* To learn more about this file see: https://angular.io/config/tsconfig. */{
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "fullTemplateTypeCheck": true,
+    "preserveWhitespaces": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true,
+    "trace": true
+  },
   "compileOnSave": false,
   "compilerOptions": {
-    "removeComments": true,
     "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
-    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
-    "target": "es2020",
-    "module": "es2020",
     "lib": [
       "es2020",
       "dom"
     ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "outDir": "./dist/out-tsc",
     "paths": {
+      "@angular-package/*": [
+        "./node_modules/@angular-package/*"
+      ],
       "@angular/*": [
         "./node_modules/@angular/*"
       ],
@@ -44,6 +51,9 @@
       "core": [
         "dist/core/core",
         "dist/core"
+      ],
+      "crypto": [
+        "node_modules/crypto-js"
       ],
       "currency": [
         "dist/currency/currency",
@@ -85,6 +95,10 @@
         "dist/spectre/spectre",
         "dist/spectre"
       ],
+      "spectre.css": [
+        "dist/spectre.css/spectre.css",
+        "dist/spectre.css"
+      ],
       "storage": [
         "dist/storage/storage",
         "dist/storage"
@@ -113,15 +127,11 @@
         "dist/wrapper/wrapper",
         "dist/wrapper"
       ]
-    }
-  },
-  "angularCompilerOptions": {
-    "enableI18nLegacyMessageIdFormat": false,
-    "fullTemplateTypeCheck": true,
-    "preserveWhitespaces": false,
-    "strictInjectionParameters": true,
-    "strictInputAccessModifiers": true,
-    "strictTemplates": true,
-    "trace": true
+    },
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2020",
+    "types": ["node"]
   }
 }
