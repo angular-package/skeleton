@@ -1,0 +1,72 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+{
+	"name": "Ubuntu"
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	, "image": "mcr.microsoft.com/devcontainers/base:jammy",
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {},
+		"ghcr.io/devcontainers-contrib/features/typescript:2": {},
+		"ghcr.io/devcontainers-contrib/features/gulp-cli:2": {}
+	},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "uname -a",
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+
+	"workspaceMount": "source=${localWorkspaceFolder}/,target=/workspaces/angular-package,type=bind",
+	// "workspaceFolder": "/workspaces/angular-package",
+
+	// Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Angular.ng-template",
+				"DavidAnson.vscode-markdownlint",
+				"GitHub.vscode-pull-request-github",
+				"Natizyskunk.sftp",
+				"Tyriar.sort-lines",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"aaron-bond.better-comments",
+				"alefragnani.project-manager",
+				"anseki.vscode-color",
+				"chouzz.vscode-better-align",
+				"christian-kohler.npm-intellisense",
+				"christian-kohler.path-intellisense",
+				"codezombiech.gitignore",
+				"dbaeumer.vscode-eslint",
+				"donjayamanne.githistory",
+				"eamodio.gitlens",
+				"ecmel.vscode-html-css",
+				"esbenp.prettier-vscode",
+				"felipecaputo.git-project-manager",
+				"formulahendry.auto-close-tag",
+				"formulahendry.auto-rename-tag",
+				"formulahendry.code-runner",
+				"huizhou.githd",
+				"johnpapa.Angular2",
+				"mhutchie.git-graph",
+				"ms-azuretools.vscode-docker",
+				"ms-vscode-remote.remote-containers",
+				"ms-vscode.vscode-typescript-next",
+				"pmneo.tsimporter",
+				"pnp.polacode",
+				"quicktype.quicktype",
+				"raymondcamden.htmlescape-vscode-extension",
+				"streetsidesoftware.code-spell-checker",
+				"syler.sass-indented",
+				"waderyan.gitblame",
+				"wayou.vscode-todo-highlight",
+				"xabikos.JavaScriptSnippets",
+				"ziyasal.vscode-open-in-github"
+			]
+		}
+	}
+}
