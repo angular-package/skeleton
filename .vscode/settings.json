@@ -1,5 +1,607 @@
 {
-  "cSpell.words": [
-    "Gitter"
-  ]
+  "git.autofetch": true,
+  "editor.tabSize": 2,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.iconTheme": "vs-seti",
+  "angular.experimental-ivy": true,
+  "cSpell.userWords": [
+    "angularpackage",
+    "arglist",
+    "autoload",
+    "Bariol",
+    "BREXPOL",
+    "cleancss",
+    "cmax",
+    "cmin",
+    "codelyzer",
+    "Cryptession",
+    "Cryptocal",
+    "csscomb",
+    "cyclomatic",
+    "Datetime",
+    "devkit",
+    "dropdowns",
+    "Embeddable",
+    "endregion",
+    "eofline",
+    "Experimentals",
+    "expressjwt",
+    "flaticon",
+    "Flexbox",
+    "Formtarget",
+    "fullheight",
+    "fullname",
+    "gapless",
+    "Gettr",
+    "Gitter",
+    "gzipped",
+    "horiz",
+    "iconscss",
+    "iefix",
+    "initals",
+    "jstransformer",
+    "keyof",
+    "keyvalue",
+    "navs",
+    "noopener",
+    "Odinson",
+    "Odisson",
+    "oneline",
+    "onespace",
+    "opentype",
+    "optimizelegibility",
+    "packagr",
+    "paginations",
+    "paren",
+    "picturepan",
+    "prebuild",
+    "Projectable",
+    "readed",
+    "resizer",
+    "Rudnicki",
+    "Ścibor",
+    "sciborrudnicki",
+    "Scollable",
+    "scsscss",
+    "slidein",
+    "slideout",
+    "subdir",
+    "suboptimum",
+    "truetype",
+    "typeof",
+    "unclickable",
+    "webfont",
+    "whatsnew",
+    "Whitespaces",
+    "wieldo",
+    "wieldspace",
+    "wvvw",
+    "xmark",
+    "zindex"
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "vsintellicode.java.completionsEnabled": false,
+  "vsintellicode.python.completionsEnabled": false,
+  "vsintellicode.sql.completionsEnabled": false,
+  "eslint.alwaysShowStatus": true,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsdk": "",
+  "[typescript]": {
+    "workbench.editor.languageDetection": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.suggestSmartCommit": false,
+  "terminal.integrated.tabs.enabled": true,
+  "prettier.singleQuote": true,
+  "markdownlint.config": {
+      "no-inline-html": false
+  },
+  "better-comments.tags": [
+    {
+      // ! tag
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      // ? tag
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      //
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    // {
+    //   // todo
+    //   "tag": "todo",
+    //   "color": "#FF8C00",
+    //   "strikethrough": false,
+    //   "underline": false,
+    //   "backgroundColor": "transparent",
+    //   "bold": false,
+    //   "italic": false
+    // },
+    {
+      // any text
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "todohighlight.keywords": [
+    // Description.
+    {
+      "backgroundColor": "transparent",
+      "border": "0px",
+      "color": "#42a5f5",
+      "isWholeLine": false,
+      "overviewRulerColor": "#42a5f5",
+      "borderRadius": "0px",
+      "text": "@arbitrary"
+    },
+    {
+      "backgroundColor": "transparent",
+      "border": "0px",
+      "color": "#42a5f5",
+      "isWholeLine": false,
+      "overviewRulerColor": "#42a5f5",
+      "borderRadius": "0px",
+      "text": "@param"
+    },
+    {
+      "backgroundColor": "transparent",
+      "border": "0px",
+      "color": "#42a5f5",
+      "isWholeLine": false,
+      "overviewRulerColor": "#42a5f5",
+      "borderRadius": "0px",
+      "text": "@returns"
+    },
+    {
+      "backgroundColor": "transparent",
+      "border": "0px",
+      "color": "#666666",
+      "isWholeLine": false,
+      "overviewRulerColor": "#666666",
+      "text": "@deprecated"
+    },
+    {
+      "backgroundColor": "#1e1e1e",
+      "border": "0px",
+      "color": "#1fcf4b",
+      "isWholeLine": false,
+      "overviewRulerColor": "#1fcf4b",
+      "text": "@new"
+    },
+
+    // Priority.
+    {
+      "before": {
+        "contentText": "Priority " // adds text before the highlight
+      }, 
+      "backgroundColor": "transparent",
+      "border": "0px",
+      "color": "#8bc34a",
+      "fontWeight": "400",
+      "overviewRulerColor": "#8bc34a",
+      "text": "Low"
+    },
+    {
+      "before": {
+        "contentText": "Priority " // adds text before the highlight
+      }, 
+      "backgroundColor": "transparent",
+      "border": "0px",
+      "color": "#ffeb3b",
+      "fontWeight": "400",
+      "overviewRulerColor": "#ffeb3b",
+      "text": "Medium"
+    },
+    {
+      "before": {
+        "contentText": "Priority " // adds text before the highlight
+      }, 
+      "backgroundColor": "transparent",
+      "border": "0px",
+      "color": "#e91e63",
+      "fontWeight": "400",
+      "overviewRulerColor": "#e91e63",
+      "text": "High"
+    },
+
+    // Status.
+    {
+      "before": {
+        "contentText": "Status " // adds text before the highlight
+      }, 
+      "after": {
+        "contentText": "" // adds text after the highlight
+      },
+      "backgroundColor": "transparent",
+      "border": "0px solid #1fcf4b",
+      "color": "#1fcf4b",
+      "fontWeight": "400",
+      "overviewRulerColor": "#1fcf4b",
+      "text": "Completed"
+    },
+
+    {
+      "before": {
+        "contentText": "Status " // adds text before the highlight
+      }, 
+      "after": {
+        "contentText": "" // adds text after the highlight
+      },
+      "backgroundColor": "transparent",
+      "border": "0px",
+      "color": "#666666",
+      "fontWeight": "400",
+      "overviewRulerColor": "#666666",
+      "text": "Deprecated"
+    },
+
+    {
+      "before": {
+        "contentText": "Status " // adds text before the highlight
+      }, 
+      "after": {
+        "contentText": "" // adds text after the highlight
+      },
+      "backgroundColor": "transparent",
+      "border": "0px solid #ffc107",
+      "color": "#ffc107",
+      "fontWeight": "400",
+      "overviewRulerColor": "#ffc107",
+      "text": "In Progress"
+    },
+    {
+      "before": {
+        "contentText": "Status " // adds text before the highlight
+      }, 
+      "after": {
+        "contentText": "" // adds text after the highlight
+      },
+      "backgroundColor": "transparent",
+      "border": "0px",
+      "color": "#b1b1b1",
+      "fontWeight": "400",
+      "overviewRulerCoor": "#b1b1b1",
+      "text": "Todo"
+    },
+
+    // Actions.
+    {
+      "backgroundColor": "transparent",
+      "border": "1px solid #777777",
+      "color": "#666666",
+      "isWholeLine": false,
+      "overviewRulerColor": "#e85600",
+      "text": "DEPRECATED"
+    },  
+    {
+      "backgroundColor": "transparent",
+      "border": "1px solid #1fcf4b",
+      "color": "#1fcf4b",
+      "fontWeight": "600",
+      "overviewRulerColor": "#1fcf4b",
+      "text": "DONE"
+    },
+    {
+      "backgroundColor": "transparent",
+      "border": "1px solid gold",
+      "color": "gold",
+      "overviewRulerColor": "grey",
+      "text": "FEATURE:"
+    },
+    {
+      "color": "#000",
+      "isWholeLine": false,
+      "text": "HACK:"
+    },
+    {
+      "backgroundColor": "#1e1e1e",
+      "border": "1px solid #99B0D5",
+      "color": "#99B0D5",
+      "isWholeLine": false,
+      "text": "INFO:"
+    },
+    {
+      "backgroundColor": "yellow",
+      "border": "1px solid yellow",
+      "color": "#ff0000",
+      "overviewRulerColor": "grey",
+      "text": "NOTE:"
+    },
+    {
+      "backgroundColor": "#FF8C00",
+      "border": "1px solid #FF8C00",
+      "color": "#000000",
+      "isWholeLine": false,
+      "overviewRulerColor": "#FF8C00",
+      "text": "FIX:"
+    },
+    {
+      "backgroundColor": "#1e1e1e",
+      "border": "1px solid #ff0000",
+      "color": "#ff0000",
+      "isWholeLine": false,
+      "overviewRulerColor": "#ff0000",
+      "text": "REMOVE:"
+    },
+    {
+      "backgroundColor": "#1e1e1e",
+      "border": "1px solid #B48FD9",
+      "color": "#B48FD9",
+      "fontWeight": "500",
+      "text": "REVIEW:"
+    },
+    {
+      "backgroundColor": "#1e1e1e",
+      "border": "1px solid #42a5f5",
+      "color": "#42a5f5",
+      "isWholeLine": true,
+      "overviewRulerColor": "#42a5f5",
+      "borderRadius": "5px",
+      "text": "SECTION:"
+    },
+    {
+      "backgroundColor": "#1e1e1e",
+      "border": "1px solid #FF8C00",
+      "color": "#FF8C00",
+      "isWholeLine": false,
+      "overviewRulerColor": "#FF8C00",
+      "text": "TODO:",
+      "regex": {
+        "pattern": "(?<=^|\"|\\s)TODO(\\(\\w+\\))?:" // this allows for TODO: or TODO(Bob): etc.
+      }
+    },
+
+    // Sass @use.
+    {
+      "backgroundColor": "transparent",
+      "border": "0px solid #42a5f5",
+      "color": "#42a5f5",
+      "isWholeLine": false,
+      "overviewRulerColor": "#42a5f5",
+      "borderRadius": "0px",
+      "text": "Variables."
+    },
+    {
+      "backgroundColor": "transparent",
+      "border": "0px solid #42a5f5",
+      "color": "#42a5f5",
+      "isWholeLine": false,
+      "overviewRulerColor": "#42a5f5",
+      "borderRadius": "0px",
+      "text": "Modules."
+    },
+    {
+      "backgroundColor": "transparent",
+      "border": "0px solid #42a5f5",
+      "color": "#42a5f5",
+      "isWholeLine": false,
+      "overviewRulerColor": "#42a5f5",
+      "borderRadius": "0px",
+      "text": "Sass."
+    },
+    {
+      "backgroundColor": "transparent",
+      "border": "0px solid #42a5f5",
+      "color": "#42a5f5",
+      "isWholeLine": false,
+      "overviewRulerColor": "#42a5f5",
+      "borderRadius": "0px",
+      "text": "Functions."
+    },
+    {
+      "before": {
+        "contentText": "" // adds text before the highlight
+      }, 
+      "after": {
+        "contentText": "" // adds text after the highlight
+      },
+      "backgroundColor": "#1e1e1e",
+      "border": "1px solid #ff0000",
+      "color": "#ff0000",
+      "isWholeLine": false,
+      "overviewRulerColor": "#ff0000",
+      "text": "WARNING:",
+      "diagnosticSeverity": "information"
+    }
+  ],
+  "todohighlight.defaultStyle": {
+      "color": "#000",
+      "backgroundColor": "#fff308",
+      "overviewRulerColor": "#ffab00",
+      "cursor": "pointer",
+      "border": "1px solid #eee",
+      "borderRadius": "2px",
+      "isWholeLine": false
+  },
+  "highlight.regexes": {
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#ffcc00",
+          "backgroundColor": "#ffcc00",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#ffcc00",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#cc0000",
+          "backgroundColor": "#cc0000",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#cc0000",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#00ccff",
+          "backgroundColor": "#00ccff",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#00ccff",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#cc00cc",
+          "backgroundColor": "#cc00cc",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#cc00cc",
+          "color": "#1f1f1f"
+        }
+      ]
+    }
+  },
+  "vscode-edge-devtools.mirrorEdits": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path.linux": "/home/seebor/.vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vscode-kubernetes.helm-path.linux": "/home/seebor/.vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vscode-kubernetes.kubectl-path.linux": "/home/seebor/.vs-kubernetes/tools/kubectl/kubectl"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "redhat.telemetry.enabled": true,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.confirmSync": false,
+  "npm.keybindingsChangedWarningShown": true,
+  "codestream.serverUrl": "https://api.codestream.com",
+  "codestream.email": "angular-package@wvvw.dev",
+  "githubPullRequests.remotes": [
+    "origin",
+    "upstream",
+    "1.0.x"
+  ],
+  "githubIssues.queries": [
+    {
+      "label": "My Issues",
+      "query": "default"
+    },
+    {
+      "label": "Created Issues",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+    },
+    {
+      "label": "Recent Issues",
+      "query": "state:open repo:${owner}/${repository} sort:updated-desc"
+    }
+  ],
+  "liveSassCompile.settings.compileOnWatch": false,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/dist",
+      "savePathReplacementPairs": null
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.includeItems": [],
+  "minify.minifyExistingOnSave": true,
+  "minify.css": {
+    "advanced": true,
+    "aggressiveMerging": true,
+    "compatibility": "*",
+    "inliner": {},
+    "keepBreaks": false,
+    "keepSpecialComments": "*",
+    "mediaMerging": true,
+    "processImport": true,
+    "processImportFrom": [
+        "all"
+    ],
+    "rebase": true,
+    "restructuring": true,
+    "root": "${workspaceRoot}",
+    "roundingPrecision": 2,
+    "semanticMerging": false,
+    "shorthandCompacting": true
+  },
+  "gulp.autoDetect": "on",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "grunt.autoDetect": "on",
+  "editor.fontFamily": "'Droid Sans Mono', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "jake.autoDetect": "on",
+  "cSpell.language": "en,en-US",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "stylelint.ignoreDisables": true,
+  "stylelint.snippet": [
+    "css",
+    "less",
+    "postcss",
+    "scss"
+  ],
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "scss"
+  ],
+  "stylelint.reportNeedlessDisables": true,
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDragAndDrop": false,
+  "todohighlight.isEnable": true,
+  "editor.linkedEditing": true
 }
