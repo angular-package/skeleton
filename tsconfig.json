@@ -1,4 +1,5 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */{
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "fullTemplateTypeCheck": true,
@@ -91,6 +92,9 @@
         "dist/range/range",
         "dist/range"
       ],
+      "sass": [
+        "dist/sass"
+      ],
       "spectre": [
         "dist/spectre/spectre",
         "dist/spectre"
@@ -98,6 +102,9 @@
       "spectre.css": [
         "dist/spectre.css/spectre.css",
         "dist/spectre.css"
+      ],
+      "spectre.dev": [
+        "dist/spectre.dev"
       ],
       "storage": [
         "dist/storage/storage",
