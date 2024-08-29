@@ -509,6 +509,15 @@
             "tsConfig": "packages/wrapper/tsconfig.spec.json",
             "karmaConfig": "packages/wrapper/karma.conf.js"
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "packages/wrapper/**/*.ts",
+              "packages/wrapper/**/*.html"
+            ]
+          }
         }
       }
     },
@@ -819,11 +828,85 @@
             "tsConfig": "packages/spectre.css/tsconfig.spec.json",
             "karmaConfig": "packages/spectre.css/karma.conf.js"
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "packages/spectre.css/**/*.ts",
+              "packages/spectre.css/**/*.html"
+            ]
+          }
+        }
+      }
+    },
+    "sass": {
+      "projectType": "library",
+      "root": "packages/sass",
+      "sourceRoot": "packages/sass/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "packages/sass/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "packages/sass/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "packages/sass/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "packages/sass/src/test.ts",
+            "tsConfig": "packages/sass/tsconfig.spec.json",
+            "karmaConfig": "packages/sass/karma.conf.js"
+          }
+        }
+      }
+    },
+    "spectre.dev": {
+      "projectType": "library",
+      "root": "packages/spectre.dev",
+      "sourceRoot": "packages/spectre.dev/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "packages/spectre.dev/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "packages/spectre.dev/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "packages/spectre.dev/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "packages/spectre.dev/src/test.ts",
+            "tsConfig": "packages/spectre.dev/tsconfig.spec.json",
+            "karmaConfig": "packages/spectre.dev/karma.conf.js"
+          }
         }
       }
     }
   },
   "cli": {
-    "analytics": "de2b095f-ff7d-41dc-a0d4-4b221dc0262d"
+    "analytics": "de2b095f-ff7d-41dc-a0d4-4b221dc0262d",
+    "cache": {
+      "enabled": false
+    }
   }
 }
