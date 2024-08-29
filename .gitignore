@@ -145,3 +145,6 @@ packages
 
 # Token 
 access_token
+
+# Temporary files
+temp
