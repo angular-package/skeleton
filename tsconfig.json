@@ -4,10 +4,11 @@
     "enableI18nLegacyMessageIdFormat": false,
     "fullTemplateTypeCheck": true,
     "preserveWhitespaces": false,
+    "skipLibCheck": true,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true,
-    "trace": true
+    "trace": true,
   },
   "compileOnSave": false,
   "compilerOptions": {
@@ -34,104 +35,111 @@
         "./node_modules/@angular/*"
       ],
       "calculation": [
-        "dist/calculation/calculation",
         "dist/calculation"
       ],
       "callback": [
-        "dist/callback/callback",
         "dist/callback"
       ],
       "change-detection": [
-        "dist/change-detection/change-detection",
         "dist/change-detection"
       ],
       "component-loader": [
-        "dist/component-loader/component-loader",
         "dist/component-loader"
       ],
+      "console": [
+        "dist/console"
+      ],
       "core": [
-        "dist/core/core",
         "dist/core"
       ],
       "crypto": [
         "node_modules/crypto-js"
       ],
       "currency": [
-        "dist/currency/currency",
         "dist/currency"
       ],
+      "dart-sass": [
+        "dist/dart-sass"
+      ],
+      "detection": [
+        "dist/detection"
+      ],
       "error": [
-        "dist/error/error",
         "dist/error"
       ],
       "font-awesome": [
-        "dist/font-awesome/font-awesome",
         "dist/font-awesome"
       ],
+      "indexeddb": [
+        "dist/indexeddb"
+      ],
       "name": [
-        "dist/name/name",
         "dist/name"
       ],
       "nav": [
-        "dist/nav/nav",
         "dist/nav"
       ],
       "payment": [
-        "dist/payment/payment",
         "dist/payment"
       ],
       "preferences": [
-        "dist/preferences/preferences",
         "dist/preferences"
       ],
+      "prism": [
+        "dist/prism"
+      ],
       "property": [
-        "dist/property/property",
         "dist/property"
       ],
       "range": [
-        "dist/range/range",
         "dist/range"
+      ],
+      "reactive": [
+        "dist/reactive"
       ],
       "sass": [
         "dist/sass"
       ],
+      "sass-list": [
+        "dist/sass-list"
+      ],
+      "sass-query": [
+        "dist/sass-query"
+      ],
+      "sass-string": [
+        "dist/sass-string"
+      ],
       "spectre": [
-        "dist/spectre/spectre",
         "dist/spectre"
       ],
       "spectre.css": [
-        "dist/spectre.css/spectre.css",
         "dist/spectre.css"
       ],
       "spectre.dev": [
         "dist/spectre.dev"
       ],
+      "state": [
+        "dist/state"
+      ],
       "storage": [
-        "dist/storage/storage",
         "dist/storage"
       ],
       "tag": [
-        "dist/tag/tag",
         "dist/tag"
       ],
       "testing": [
-        "dist/testing/testing",
         "dist/testing"
       ],
       "text": [
-        "dist/text/text",
         "dist/text"
       ],
       "type": [
-        "dist/type/type",
         "dist/type"
       ],
       "ui": [
-        "dist/ui/ui",
         "dist/ui"
       ],
       "wrapper": [
-        "dist/wrapper/wrapper",
         "dist/wrapper"
       ]
     },
