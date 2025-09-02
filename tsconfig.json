@@ -5,28 +5,32 @@
     "fullTemplateTypeCheck": true,
     "preserveWhitespaces": false,
     "skipLibCheck": true,
+    "sourceMap": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true,
-    "trace": true,
+    "trace": false,
   },
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
     "declaration": false,
     "downlevelIteration": true,
+    "esModuleInterop": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
-    "lib": [
-      "es2020",
-      "dom"
-    ],
-    "module": "esnext",
-    "moduleResolution": "node",
+    "inlineSourceMap": false,
+    "isolatedModules": true,
+    "lib": [ "ES2020", "DOM" ],
+    "module": "ES2020",
+    "moduleResolution": "Node",
     "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
     "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
     "outDir": "./dist/out-tsc",
+    "skipLibCheck": true,
     "paths": {
       "@angular-package/*": [
         "./node_modules/@angular-package/*"
@@ -52,6 +56,9 @@
       "core": [
         "dist/core"
       ],
+      "cost-table": [
+        "dist/cost-table"
+      ],
       "crypto": [
         "node_modules/crypto-js"
       ],
@@ -66,6 +73,9 @@
       ],
       "error": [
         "dist/error"
+      ],
+      "expectation": [
+        "dist/expectation"
       ],
       "font-awesome": [
         "dist/font-awesome"
@@ -127,6 +137,9 @@
       "tag": [
         "dist/tag"
       ],
+      "test": [
+        "dist/test"
+      ],
       "testing": [
         "dist/testing"
       ],
@@ -144,9 +157,9 @@
       ]
     },
     "removeComments": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "strict": true,
-    "target": "es2020",
+    "target": "ES2020",
     "types": ["node"]
   }
 }
