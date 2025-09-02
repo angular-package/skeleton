@@ -148,3 +148,6 @@ access_token
 
 # Temporary files
 temp
+
+# Trash
+.Trash*
